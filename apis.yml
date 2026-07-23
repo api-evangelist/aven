@@ -1,8 +1,27 @@
 aid: aven
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aven.png
 name: Aven
-description: 'Aven is a company surfaced as a portfolio company of electric-capital, founders-fund, general-catalyst,
-  ggv-capital, khosla-ventures and added to the API Evangelist network as a stub for enrichment. Sector:
-  fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Aven is a consumer fintech that issues a home-equity-backed Visa credit
+  card, letting homeowners tap their home equity (a HELOC) through a card with credit-card
+  convenience at lower, home-equity-secured rates. Its product line spans the Aven
+  HELOC card, a Bitcoin-backed Visa card, and educational tooling such as a payment
+  calculator, positioning itself as an AI-driven "machine bank." Founded in the fintech
+  sector and backed by Electric Capital, Founders Fund, General Catalyst, GGV Capital,
+  and Khosla Ventures, Aven operates a consumer marketing and account-servicing web
+  presence at aven.com. As of this enrichment pass Aven publishes no public developer
+  API, developer portal, OpenAPI/AsyncAPI specification, SDKs, or MCP server; this
+  profile captures its verifiable public identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/aven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Financial Services
+- Lending
+- Home Equity
+- HELOC
+- Credit Cards
+- Consumer Finance
+- Banking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,5 +53,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aven-domain-security.yml
 - type: Website
   url: https://www.aven.com/
+- type: Support
+  url: https://www.aven.com/support
+- type: Blog
+  url: https://www.aven.com/blog
+- type: PrivacyPolicy
+  url: https://www.aven.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/aven/integrations
+- https://n8n.io/integrations/aven/
+- https://composio.dev/toolkits/aven
+- https://monid.ai/tools/aven
+checked:
+- https://composio.dev/toolkits/aven
+- https://monid.ai/tools/aven
+- https://n8n.io/integrations/aven/
+- https://zapier.com/apps/aven/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
